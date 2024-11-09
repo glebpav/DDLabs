@@ -1,0 +1,85 @@
+# Ignore Maven or Gradle build output directories
+/target/
+/out/
+/build/
+
+# IntelliJ IDEA specific
+/.idea/
+/*.iml
+.idea_modules/
+/*.ipr
+*.iws
+
+# Eclipse specific
+/.classpath
+/.project
+/.settings/
+
+# Lombok generated .class files
+**/lombok.config
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Lombok annotations directory
+.lombok/
+
+# Compiled class files
+*.class
+
+# Ignore JAR, WAR, and ZIP files
+*.jar
+*.war
+*.zip
+
+# Gradle specific files
+.gradle/
+/build/
+
+# Ignore Maven specific files
+.mvn/
+**/target/
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ and Eclipse working files
+*.iml
+*.iws
+*.ipr
+*.class
+*.log
+
+# Ignore IDE workspace files
+/nbproject/private/
+/.project
+/.classpath
+
+# Mac OS X Finder metadata
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Ignore other IDE specific files
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Dependency directories
+node_modules/
+dist/
