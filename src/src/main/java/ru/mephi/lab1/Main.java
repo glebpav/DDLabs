@@ -22,7 +22,7 @@ public class Main {
                 .build());
 
         studentsManager.addStudent(Student.builder()
-                .name("Nikita Palich")
+                .name("Nikita Pavlovich")
                 .group("S22-501")
                 .course(3)
                 .grades(List.of(3, 4, 4))
